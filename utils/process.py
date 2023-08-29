@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.decomposition import PCA
 
 
-ar = np.load("data_files.npz", allow_pickle=True)
+ar = np.load("../data/data_files.npz", allow_pickle=True)
 
 epi = ar['atac_train_small']
 rna = ar['rna_train']
